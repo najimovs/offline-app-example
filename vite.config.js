@@ -24,7 +24,10 @@ export default defineConfig( {
 				name: "My awesome PWA",
 				short_name: "PWA",
 				description: "A description of my PWA",
-				theme_color: "#000000",
+				start_url: "/",
+				display: "standalone",
+				background_color: "#000000",
+				theme_color: "#ffffff",
 				icons: [
 					{
 						src: '/icon192.png',
